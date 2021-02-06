@@ -60,3 +60,8 @@ button:hover {
     transition: ease-in-out;
     color: white;
 }
+
+.required::before {
+    content: '*';
+    color: red;
+}
